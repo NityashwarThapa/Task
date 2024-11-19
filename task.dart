@@ -32,4 +32,12 @@ void main() {
   // Modulus (remainder of division)
   int modulus = a % b;
   print('The remainder when $a is divided by $b is $modulus');
+
+  // Exponentiation (a raised to the power of b)
+  double exponentiation = a.toDouble() * a.toDouble(); // a^2
+  print('The result of $a raised to the power of 2 is $exponentiation');
+
+  // Integer division (floor division)
+  int intDivision = a ~/ b;
+  print('The integer division of $a by $b is $intDivision');
 }
