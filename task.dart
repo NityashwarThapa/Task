@@ -13,4 +13,9 @@ void main() {
 
   // Print the result
   print('The sum of $num1 and $num2 is $sum');
+
+  // Declare two numbers
+  int a = 5;
+  int b = 3;
+  print(a + b);
 }
