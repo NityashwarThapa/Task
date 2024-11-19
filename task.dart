@@ -24,4 +24,12 @@ void main() {
 
   int product = c * d;
   print('The product of $c and $d is $product');
+
+  // Division
+  double quotient = a / b;
+  print('The quotient of $a divided by $b is $quotient');
+
+  // Modulus (remainder of division)
+  int modulus = a % b;
+  print('The remainder when $a is divided by $b is $modulus');
 }
