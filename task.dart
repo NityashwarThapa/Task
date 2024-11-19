@@ -18,4 +18,10 @@ void main() {
   int a = 5;
   int b = 3;
   print(a + b);
+
+  var c = 20;
+  var d = 10;
+
+  int product = c * d;
+  print('The product of $c and $d is $product');
 }
